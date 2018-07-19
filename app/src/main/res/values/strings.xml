@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">BMI Application</string>
+    <string name="string_Hello">Hello my friend, what\'s your name?</string>
+    <string name="string_Name">Here your name</string>
+    <string name="string_Button_valid">Valid is Ok for me</string>
+    <string name="string_formula">BMI=Weight(kg)/[Size(m)^2]</string>
+    <string name="string_size">Here your size</string>
+    <string name="string_weight">Here your weight in kg</string>
+    <string name="string_obtainResult">Click on calculate BMI to obtain your result.</string>
+    <string name="string_bmiComment">Analyse yourself your BMI, Googlize it!</string>
+    <string name="string_errorData">Error Data, check values</string>
+    <string name="label_weight">Weight: </string>
+    <string name="label_size">Size: </string>
+    <string name="label_meter">meter </string>
+    <string name="label_centimeter">centimeter </string>
+    <string name="label_bmi_formula">BMI formula </string>
+    <string name="label_calculate_BMI">calculate your BMI </string>
+    <string name="label_RAZ">RAZ</string>
+    <string name="label_must_click_on_button">"You must click on the button \u0022calculate your BMI\u0022 to obtain a result"</string>
+    <string name="string_BMI_value">"Your BMI value is %1$.2f"</string>
+    <string name="string_numberFormatException">A numberFormatException arise</string>
+    <string name="string_bmi_underweight">"BMI &lt; 18.5"</string>
+    <string name="underweight">underweight</string>
+    <string name="string_bmi_normal">"BMI &gt;&#61; 18.5 et &lt;&#61; 24.9"</string>
+    <string name="normal">normal</string>
+    <string name="string_bmi_overweight">"BMI &gt; 24.9 and &lt; 30"</string>
+    <string name="overweight">overweight</string>
+    <string name="string_bmi_obesity">"BMI &gt;&#61; 30"</string>
+    <string name="obesity">obesity</string>
+</resources>

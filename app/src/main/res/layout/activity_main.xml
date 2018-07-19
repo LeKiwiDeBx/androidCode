@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <!-- widgets -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/label_weight"
+            android:textColor="@color/colorOk"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/weight"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/string_weight"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/label_size"
+            android:textColor="@color/colorOk"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/size"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/string_size"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkedButton="@id/radio2"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_meter" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_centimeter" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/checkFormula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="@string/label_bmi_formula" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btnCalcul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_weight="1"
+            android:text="@string/label_calculate_BMI" />
+
+        <Button
+            android:id="@+id/btnRaz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_weight="1"
+            android:text="@string/label_RAZ" />
+
+
+    </LinearLayout>
+
+    <TableLayout
+        android:id = "@+id/idTableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+
+            <TextView
+                android:id="@+id/result"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/label_must_click_on_button" />
+
+        <TableRow
+            android:background="@color/colorOk">
+
+            <TextView
+                android:id="@+id/cell1_1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+
+                android:text="@string/string_bmi_underweight" />
+
+            <TextView
+                android:id="@+id/cell1_2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+
+                android:text="@string/underweight" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/cell2_1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/string_bmi_normal" />
+
+            <TextView
+                android:id="@+id/cell2_2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/normal" />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/cell3_1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/string_bmi_overweight" />
+
+            <TextView
+                android:id="@+id/cell3_2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/overweight" />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/cell4_1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/string_bmi_obesity" />
+
+            <TextView
+                android:id="@+id/cell4_2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/obesity" />
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>
+

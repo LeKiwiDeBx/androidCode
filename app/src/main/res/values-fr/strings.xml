@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Application IMC</string>
+    <string name="string_size">Ici votre taille</string>
+    <string name="string_weight">Ici votre poids en kg</string>
+    <string name="label_weight">Poids:</string>
+    <string name="label_size">Taille:</string>
+    <string name="label_meter">mètre</string>
+    <string name="label_centimeter">centimètre</string>
+    <string name="label_bmi_formula">formule de l\'IMC</string>
+    <string name="label_calculate_BMI">calculez votre IMC</string>
+    <string name="label_RAZ">RAZ</string>
+    <string name="label_must_click_on_button">Vous devez cliquer le bouton calculez votre IMC pour le resultat</string>
+    <string name="string_Name">Votre nom</string>
+    <string name="string_Button_valid">Valider Ok pour moi</string>
+    <string name="string_formula">IMC=Poids(kg)/[Taille(m)^2]</string>
+    <string name="string_obtainResult">Cliquez sur Calculer votre IMC pour votre resultat</string>
+    <string name="string_bmiComment">Analyser vous-même votre IMC, Googlisez le!</string>
+    <string name="string_BMI_value">Votre valeur IMC est de %1$.2f</string>
+    <string name="string_Hello">Bonjour mon ami, quel est ton nom?</string>
+    <string name="string_errorData">Erreur de Donnée, verifiez les valeurs</string>
+    <string name="string_numberFormatException">Une exception de type numberFormatException est déclenchée</string>
+    <string name="underweight">maigreur</string>
+    <string name="normal">normal</string>
+    <string name="overweight">surpoids</string>
+    <string name="obesity">obesité</string>
+    <string name="string_bmi_underweight">"IMC &lt; 18.5"</string>
+    <string name="string_bmi_normal">"IMC &gt;&#61; 18.5 et &lt;&#61; 24.9"</string>
+    <string name="string_bmi_overweight">"IMC &gt; 24.9 et &lt; 30"</string>
+    <string name="string_bmi_obesity">"IMC &gt;&#61; 30"</string>
+</resources>
